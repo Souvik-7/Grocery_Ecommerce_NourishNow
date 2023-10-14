@@ -81,7 +81,7 @@ We welcome contributions to the Nourishnow project. If you would like to contrib
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). Feel free to use ( Only for educational purposes), modify, and distribute it as per the terms of the license.
+This project is licensed under the (LICENSE). Feel free to use ( Only for educational purposes), modify, and distribute it as per the terms of the license.
 
 ---
 
