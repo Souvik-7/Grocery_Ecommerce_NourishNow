@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(135deg, #c9f5f455 25%, transparent 25%) -8px 0/ 16px 16px, linear-gradient(225deg, #c9f5f4 25%, transparent 25%) -8px 0/ 16px 16px, linear-gradient(315deg, #c9f5f455 25%, transparent 25%) 0px 0/ 16px 16px, linear-gradient(45deg, #c9f5f4 25%, #fefefe 25%) 0px 0/ 16px 16px;
+}
+
+.hero{
+   height: 30rem;
+   width: 27rem;
+   padding: 4rem 2rem 4rem 2rem;
+   background-color: #B9EBFF;
+   border-radius: 25px;
+   box-shadow: -10px 10px 20px -12px #0F13227E;
+}
+
+.hero h1{
+    padding: 0rem 1rem 1rem .5rem ;
+    margin-left: 3rem;
+}
+
+.hero p{
+    padding-top: 1.7rem;
+    margin-left: 1.5rem;
+}
+
+.hero .otp-input{
+    padding: 3rem 1rem 1rem .5rem;
+}
+
+.hero .otp-input input{
+  line-height: 3rem;
+  font-size: 1.2rem;
+  border: none;
+  background-color: #9dc8db9b;
+  margin-left: 3rem;
+  border-radius: .8rem;
+  text-align: center;
+  outline: none;
+}
+
+.hero .resend{
+  background-color: transparent;
+  border: none;
+  font-weight: 100;
+  color: #000000;
+  cursor: pointer;
+  padding: 1rem 1rem 2rem .5rem;
+  margin-left: 6.8rem;
+}
+
+.hero .resend i {
+    margin-left: 5px;
+}
+
+.hero .verify{
+    background-color: #3db0e1c7;
+    display: flex;
+    width: 7rem;
+    height: 2.7rem;
+    padding: 1rem 2rem 1rem .5rem;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 0;
+    align-items: center;
+    margin-left: 7rem;
+}
+.hero .verify input{
+    border: none;
+    background: transparent;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.hero .verify:hover{
+    opacity: .9;
+    cursor: pointer;
+}
+
+#btn{
+    padding-left: 1.5rem;
+}

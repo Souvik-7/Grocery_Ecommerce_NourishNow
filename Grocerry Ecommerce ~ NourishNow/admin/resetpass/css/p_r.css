@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(135deg, #c9f5f455 25%, transparent 25%) -8px 0/ 16px 16px, linear-gradient(225deg, #c9f5f4 25%, transparent 25%) -8px 0/ 16px 16px, linear-gradient(315deg, #c9f5f455 25%, transparent 25%) 0px 0/ 16px 16px, linear-gradient(45deg, #c9f5f4 25%, #fefefe 25%) 0px 0/ 16px 16px;
+}
+
+.hero{
+   height: 30rem;
+   width: 27rem;
+   padding: 4rem 1.7rem 4rem 1.7rem;
+   background-color: #B9EBFF;
+   border-radius: 25px;
+   box-shadow: -10px 10px 20px -12px #0F13227E;
+}
+
+.hero h1{
+    padding: 0rem 1rem .5rem .5rem ;
+    margin-left: 4.9rem;
+    font-size: 2.1rem;
+}
+
+#req{
+    padding: 1rem 1rem 2rem 3rem;
+}
+
+.hero .email-input{
+    padding: 0 1rem;
+    width: 21rem;
+    margin: 0 1rem;
+    background-color: #9dc8db9b;
+    border-radius: .8rem;
+    line-height: 3rem;
+}
+
+.hero .email-input input{
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  background-color: transparent;
+}
+.hero p{
+    padding: 1rem 1rem 2rem 1.5rem;
+}
+
+/* .hero .verify-btn{
+    border: none;
+    background: transparent;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.hero .verify-btn{
+    opacity: .9;
+    cursor: pointer;
+}
+
+.verify-btn{
+ margin: 0;
+} */
+.hero .send-otp{
+    background-color: #3db0e1c7;
+    display: flex;
+    width: 8.3rem;
+    height: 2.7rem;
+    padding: 1rem 2rem 1rem .5rem;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 0;
+    align-items: center;
+    margin-left: 7rem;
+}
+.hero .send-otp input{
+    border: none;
+    background: transparent;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.hero .send-otp:hover{
+    opacity: .9;
+    cursor: pointer;
+}
+
+#btn{
+    padding-left: 1.5rem;
+}

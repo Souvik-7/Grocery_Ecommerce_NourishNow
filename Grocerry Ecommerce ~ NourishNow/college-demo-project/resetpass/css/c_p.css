@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(135deg, #c9f5f455 25%, transparent 25%) -8px 0/ 16px 16px, linear-gradient(225deg, #c9f5f4 25%, transparent 25%) -8px 0/ 16px 16px, linear-gradient(315deg, #c9f5f455 25%, transparent 25%) 0px 0/ 16px 16px, linear-gradient(45deg, #c9f5f4 25%, #fefefe 25%) 0px 0/ 16px 16px;
+}
+
+.hero{
+   height: 30rem;
+   width: 27rem;
+   padding: 4rem 1.7rem 4rem 1.7rem;
+   background-color: #B9EBFF;
+   border-radius: 25px;
+   box-shadow: -10px 10px 20px -12px #0F13227E;
+}
+
+.hero h1{
+    padding: 0 1rem 1.5rem 6.5rem ;
+    font-size: 2.1rem;
+}
+
+.hero p{
+    padding: 0 1rem .5rem 1rem;
+}
+
+.hero input{
+    padding: 0 1rem;
+    width: 21rem;
+    margin: 0 1rem;
+    background-color: #9dc8db9b;
+    border-radius: .8rem;
+    line-height: 2.5rem;
+    outline: none;
+    border: none;
+}
+
+.hero p{
+    padding: 1rem 1rem 2rem 1.5rem;
+}
+
+.hero .save{
+    background-color: #3db0e1c7;
+    display: flex;
+    width: 8.3rem;
+    height: 2.7rem;
+    padding: 1rem 2rem 1rem .5rem;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 0;
+    align-items: center;
+    margin-left: 7rem;
+}
+.hero .save input{
+    border: none;
+    background: transparent;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.hero .save-btn{
+    padding-top: 2rem;
+}
+.hero .save:hover{
+    opacity: .9;
+    cursor: pointer;
+}
+
+#btn{
+    padding-left: 1.5rem;
+}
